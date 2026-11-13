@@ -1,0 +1,27 @@
+{
+  "expo": {
+    "name": "Onde Estacionei?",
+    "slug": "onde-estacionei",
+    "scheme": "ondeestacionei",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "userInterfaceStyle": "automatic",
+    "ios": {
+      "supportsTablet": true,
+      "bundleIdentifier": "com.ondeestacionei.app"
+    },
+    "android": {
+      "package": "com.ondeestacionei.app",
+      "edgeToEdgeEnabled": true
+    },
+    "plugins": [
+      [
+        "expo-location",
+        {
+          "locationWhenInUsePermission": "Permita que Onde Estacionei use sua localização para salvar a vaga e mostrar a distância até o carro."
+        }
+      ],
+      "expo-notifications"
+    ]
+  }
+}
